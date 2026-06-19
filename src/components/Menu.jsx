@@ -1,48 +1,48 @@
 function Menu() {
   const menuItems = [
-    {
-      name: "Truffle Butter Ribeye Steak",
-      price: "$34.99",
-      description: "Prime grass-fed ribeye steak seared with rosemary, garlic, and wild mushroom truffle butter.",
-      image: "https://images.unsplash.com/photo-1544025162-d76694265947",
-      tag: "Chef's Special"
-    },
-    {
-      name: "Handmade Lobster Ravioli",
-      price: "$28.50",
-      description: "Fresh pasta pockets filled with Maine lobster tail meat, bathed in a rich saffron cream sauce.",
-      image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141",
-      tag: "Popular"
-    },
-    {
-      name: "Artisanal Burrata Salad",
-      price: "$16.00",
-      description: "Creamy Italian burrata cheese served with heirloom cherry tomatoes, fresh basil pesto, and balsamic glaze.",
-      image: "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675",
-      tag: "Vegetarian"
-    },
-    {
-      name: "Saffron Seafood Paella",
-      price: "$32.00",
-      description: "Traditional Spanish rice cooked with saffron, loaded with jumbo shrimp, mussels, calamari, and baby scallops.",
-      image: "https://images.unsplash.com/photo-1534080391025-a77c688c22d7",
-      tag: "Gluten-Free"
-    },
-    {
-      name: "Crispy Roasted Duck Breast",
-      price: "$29.50",
-      description: "Pan-roasted duck breast with a sweet orange glaze, served alongside charred asparagus and sweet potato purée.",
-      image: "https://images.unsplash.com/photo-1514944224746-6bba5b09e5c2",
-      tag: "New"
-    },
-    {
-      name: "Molten Lava Chocolate Cake",
-      price: "$12.00",
-      description: "Warm chocolate cake with a gooey molten center, served with house-made vanilla bean gelato.",
-      image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
-      tag: "Dessert"
-    }
-  ];
+  {
+    name: "Truffle Butter Steak",
+    price: "$34.99",
+    description: "Premium grilled steak with herb butter and seasonal vegetables.",
+    image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=800",
+    tag: "Chef's Special",
+  },
+  {
+    name: "Lobster Ravioli",
+    price: "$28.50",
+    description: "Fresh handmade ravioli filled with lobster and creamy sauce.",
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800",
+    tag: "Popular",
+  },
+  {
+    name: "Fresh Burrata Salad",
+    price: "$16.00",
+    description: "Creamy burrata cheese with tomatoes and basil dressing.",
+    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800",
+    tag: "Vegetarian",
+  },
+  {
+    name: "Seafood Paella",
+    price: "$32.00",
+    description: "Spanish rice dish loaded with shrimp, mussels and seafood.",
+    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800",
+    tag: "Gluten-Free",
+  },
+  {
+    name: "Roasted Duck",
+    price: "$29.50",
+    description: "Tender roasted duck breast served with orange glaze.",
+    image: "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800",
+    tag: "New",
+  },
+  {
+    name: "Chocolate Lava Cake",
+    price: "$12.00",
+    description: "Warm molten chocolate cake with vanilla ice cream.",
+    image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800",
+    tag: "Dessert",
+  },
+];
 
   return (
     <section id="menu" className="py-24 px-6 bg-gray-50 dark:bg-gray-900/30 scroll-mt-20">

@@ -1,48 +1,64 @@
-import data from "../data/restaurantData";
+import {
+  FaMotorcycle,
+  FaConciergeBell,
+  FaShoppingBag,
+} from "react-icons/fa";
 
 function Services() {
+  const services = [
+    {
+      icon: <FaMotorcycle />,
+      title: "Food Delivery",
+      desc: "Hot & fresh meals delivered quickly.",
+    },
+    {
+      icon: <FaConciergeBell />,
+      title: "Catering",
+      desc: "Perfect for events and celebrations.",
+    },
+    {
+      icon: <FaShoppingBag />,
+      title: "Take Away",
+      desc: "Order and pick up at your convenience.",
+    },
+  ];
+
   return (
     <section
       id="services"
-      className="py-20 px-5 scroll-mt-20"
+      className="py-20 bg-gray-50 scroll-mt-20"
     >
-      <h2 className="text-4xl font-bold text-center mb-10">
-        Our Services
-      </h2>
+      <div className="max-w-6xl mx-auto px-6">
+        
+        <div className="text-center mb-12">
+          <span className="text-orange-500 font-semibold uppercase tracking-wider text-sm">
+            Our Services
+          </span>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
-
-        {/* Service 1 */}
-        <div className="text-center">
-          <h3 className="text-2xl font-bold mb-3">
-            Food Delivery
-          </h3>
-
-          <p className="text-gray-600">
-            Get your favorite dishes delivered hot and fresh to your doorstep.
-          </p>
+          <h2 className="text-4xl font-bold text-gray-900 mt-2">
+            What We Offer
+          </h2>
         </div>
 
-        {/* Service 2 */}
-        <div className="text-center">
-          <h3 className="text-2xl font-bold mb-3">
-            Catering
-          </h3>
+        <div className="grid md:grid-cols-3 gap-6">
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 text-center group"
+            >
+              <div className="w-14 h-14 mx-auto flex items-center justify-center rounded-full bg-orange-100 text-orange-500 text-xl mb-4 group-hover:scale-110 transition">
+                {service.icon}
+              </div>
 
-          <p className="text-gray-600">
-            Perfect catering for parties, events, and special occasions.
-          </p>
-        </div>
+              <h3 className="text-xl font-semibold mb-2">
+                {service.title}
+              </h3>
 
-        {/* Service 3 */}
-        <div className="text-center">
-          <h3 className="text-2xl font-bold mb-3">
-            Take Away
-          </h3>
-
-          <p className="text-gray-600">
-            Quick and easy takeaway service for dine-in or takeaway orders.
-          </p>
+              <p className="text-gray-600 text-sm">
+                {service.desc}
+              </p>
+            </div>
+          ))}
         </div>
 
       </div>

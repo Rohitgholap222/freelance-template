@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaUtensils, FaBars, FaTimes } from "react-icons/fa";
+import { FaPizzaSlice } from "react-icons/fa";
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,8 +41,8 @@ function Navbar() {
         {/* Brand Logo */}
         <a href="#home" className="flex items-center gap-2.5 group">
           <div className="bg-orange-500 text-white p-2 rounded-xl group-hover:rotate-12 transition-transform duration-300">
-            <FaUtensils className="text-lg" />
-          </div>
+  <FaPizzaSlice className="text-lg" />
+</div>
           <span className="font-extrabold text-xl tracking-tight text-gray-900 dark:text-white">
             Royal<span className="text-orange-500">Restaurant</span>
           </span>
