@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
 .counter {
   font-size: 16px;
   padding: 5px 10px;
