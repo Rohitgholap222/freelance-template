@@ -21,11 +21,12 @@ function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
+    { name: "Home", href: "/#home" },
+    { name: "About", href: "/#about" },
     { name: "Menu", href: "#menu" },
-    { name: "Gallery", href: "#gallery" },
-    { name: "Contact", href: "#contact" },
+    { name: "Gallery", href: "/#gallery" },
+    { name: "Contact", href: "/#contact" },
+    { name: "Reservation", href: "/#reservation"},
   ];
 
   return (

@@ -5,6 +5,8 @@ import Services from "../components/Services";
 import Gallery from "../components/Gallery";
 import Menu from "../components/Menu";
 import Error from "../pages/Error";
+import Reservation from "../components/Reservation";
+import About from "../components/About";
 
 function AppRoutes()
 {
@@ -15,6 +17,8 @@ function AppRoutes()
                 <Route path="menu" element={<Menu />} />
                 <Route path="gallery" element={<Gallery />} />
                 <Route path="contact" element={<Contact />} />
+                <Route path="reservation" element={<Reservation />} />
+                <Route path="about" element={<About />} />
                 <Route path="*" element={<Error />} />
         </Routes>
     )
