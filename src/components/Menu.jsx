@@ -22,49 +22,49 @@ function Menu() {
   };
 
   const menuItems = [
-    {
-      name: "Truffle Butter Steak",
-      price: "₹399.00",
-      description: "Premium grilled steak with herb butter and seasonal vegetables.",
-      image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=800",
-      tag: "Chef's Special",
-    },
-    {
-      name: "Lobster Ravioli",
-      price: "₹299.00",
-      description: "Fresh handmade ravioli filled with lobster and creamy sauce.",
-      image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800",
-      tag: "Popular",
-    },
-    {
-      name: "Fresh Burrata Salad",
-      price: "₹399.00",
-      description: "Creamy burrata cheese with tomatoes and basil dressing.",
-      image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800",
-      tag: "Vegetarian",
-    },
-    {
-      name: "Seafood Paella",
-      price: "₹799.00",
-      description: "Spanish rice dish loaded with shrimp, mussels and seafood.",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800",
-      tag: "Gluten-Free",
-    },
-    {
-      name: "Roasted Duck",
-      price: "₹749.00",
-      description: "Tender roasted duck breast served with orange glaze.",
-      image: "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800",
-      tag: "New",
-    },
-    {
-      name: "Chocolate Lava Cake",
-      price: "₹249.00",
-      description: "Warm molten chocolate cake with vanilla ice cream.",
-      image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800",
-      tag: "Dessert",
-    },
-  ];
+  {
+    name: "Paneer Tikka",
+    price: "₹299.00",
+    description: "Soft paneer cubes marinated in spices and grilled to perfection.",
+    image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800",
+    tag: "Chef's Special",
+  },
+  {
+    name: "Butter Chicken",
+    price: "₹399.00",
+    description: "Tender chicken cooked in a rich and creamy tomato-based gravy.",
+    image: "https://images.unsplash.com/photo-1772730065344-4cf131b39951?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJ1dHRlciUyMGNoaWNrZW58ZW58MHx8MHx8fDA%3D",
+    tag: "Popular",
+  },
+  {
+    name: "Veg Biryani",
+    price: "₹249.00",
+    description: "Fragrant basmati rice cooked with fresh vegetables and spices.",
+    image: "https://t4.ftcdn.net/jpg/05/70/58/65/360_F_570586537_TnIgWdCnaTYpgg9gsTyloz5bnvfCtdLl.jpg",
+    tag: "Vegetarian",
+  },
+  {
+    name: "Chicken Biryani",
+    price: "₹349.00",
+    description: "Authentic dum biryani layered with aromatic rice and chicken.",
+    image: "https://images.unsplash.com/photo-1701579231349-d7459c40919d?w=800",
+    tag: "Best Seller",
+  },
+  {
+    name: "Tandoori Chicken",
+    price: "₹449.00",
+    description: "Classic tandoori chicken marinated with yogurt and spices.",
+    image: "https://images.unsplash.com/photo-1610057099431-d73a1c9d2f2f?w=800",
+    tag: "New",
+  },
+  {
+    name: "Gulab Jamun",
+    price: "₹149.00",
+    description: "Soft milk-solid dumplings soaked in fragrant sugar syrup.",
+    image: "https://t4.ftcdn.net/jpg/10/17/65/75/360_F_1017657553_BFjfgC9jaR5KFxJKfQZxVySUnYZ211bR.jpg",
+    tag: "Dessert",
+  },
+];
 
   return (
     <section id="menu" className="py-24 px-6 bg-gray-50 dark:bg-gray-900/30 scroll-mt-20">
