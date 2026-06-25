@@ -24,14 +24,14 @@ function Menu() {
   const menuItems = [
     {
       name: "Truffle Butter Steak",
-      price: "₹899.00",
+      price: "₹399.00",
       description: "Premium grilled steak with herb butter and seasonal vegetables.",
       image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=800",
       tag: "Chef's Special",
     },
     {
       name: "Lobster Ravioli",
-      price: "₹699.00",
+      price: "₹299.00",
       description: "Fresh handmade ravioli filled with lobster and creamy sauce.",
       image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800",
       tag: "Popular",
