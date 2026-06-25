@@ -26,7 +26,6 @@ function Navbar() {
     { name: "Menu", href: "#menu" },
     { name: "Gallery", href: "/#gallery" },
     { name: "Contact", href: "/#contact" },
-    { name: "Reservation", href: "/#reservation"},
   ];
 
   return (
@@ -66,7 +65,7 @@ function Navbar() {
         {/* Desktop CTA Button */}
         <div className="hidden md:block">
           <a
-            href="#contact"
+            href="/reservation"
             className="bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold px-5 py-2.5 rounded-xl transition-all duration-300 shadow-md hover:shadow-orange-500/20 active:scale-95 block"
           >
             Book Table
@@ -105,7 +104,7 @@ function Navbar() {
           ))}
           <li className="pt-2 border-t border-gray-100 dark:border-gray-800">
             <a
-              href="#contact"
+              href="/contact"
               onClick={() => setIsOpen(false)}
               className="w-full text-center bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 rounded-xl transition-all duration-300 block"
             >

@@ -1,11 +1,18 @@
 import { FaCalendarAlt, FaClock, FaUsers } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 function Reservation() {
+    const navigate = useNavigate();
   return (
     <section
       id="reservation"
       className="py-20 px-6 bg-gray-50 scroll-mt-20"
+    ><button
+      onClick={() => navigate(-1)}
+      className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition"
     >
+      ← Back
+    </button>
       <div className="max-w-5xl mx-auto">
         
         {/* Heading */}
